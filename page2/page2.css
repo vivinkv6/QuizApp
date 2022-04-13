@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(3, 3, 61);
+    color: rgb(13, 100, 177);
+    margin-top: 30px;
+    padding: 50px;
+}
+
+
+.options{
+margin-left: 50px;
+margin-top: 30px;
+}
+.option1,.option2,.option3{
+    margin-bottom: 10px;
+}
+
+.question-alignment{
+    margin-left: 40px;
+   
+}
+.option-alignment{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button-alignment{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.label{
+    font-size: 25px;
+}
+
+.questions-list{
+    margin-top: 40px;
+}
+

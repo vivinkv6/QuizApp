@@ -142,15 +142,17 @@ let q10op1 = document.querySelector(".q10op1");
 let q10op2 = document.querySelector(".q10op2");
 let q10op3 = document.querySelector(".q10op3");
 
+//Button
+let btn=document.querySelector(".btn");
 
-//timer
-
-let time = document.querySelector(".clock");
-
-//pass value to '.clock' class
-
-time.innerHTML = 5;
-
+//Disable the submit button after 5 minutes using Submition function
+function Submition() {
+    btn.disabled = false;
+    setTimeout(()=>{
+      btn.disabled = true;
+      console.log('Button Deactivated')}, 300000);
+  }
+ 
 
 //show questions and their respective options in html through javascript function named showQuestionAnswer()
 
@@ -218,29 +220,40 @@ function showQuestionAnswer() {
 }
 
 //Countdown function
+function startTimer(duration, display, callback) {
+    var timer = duration,
+      minutes, seconds;
 
-function startTimer(duration, display) {
-    var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
+var myInterval = setInterval(function() {
+   minutes = parseInt(timer / 60, 10)
+   seconds = parseInt(timer % 60, 10);
 
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        display.textContent = minutes + ":" + seconds;
+    display.textContent = minutes + ":" + seconds;
 
-        if (--timer < 0) {
-            timer = duration;
-        }
-    }, 1000);
-}
+    if (--timer < 0) {
+      timer = duration;
+      
+      // clear the interal
+      clearInterval(myInterval);
 
-window.onload = function () {
-    var fiveMinutes = 60 * 5,
-        display = document.querySelector('.clock');
-    startTimer(fiveMinutes, display);
+      // use the callback
+      if(callback) {
+          callback();
+      }
+    }
+  }, 1000)};
+
+
+window.onload = function() {
+  var time = 300,// 1 minute=60 seconds,Here 300  denote 5 minutes ie, 300 seconds -> 5 minutes
+    display = document.querySelector('.clock');
+  startTimer(time, display, function() { alert('Times Up'); });
 };
-
 //call the function to display questions and options in html
 showQuestionAnswer();
+
+//call the function to disable submit button
+Submition();

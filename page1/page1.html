@@ -15,18 +15,20 @@
 <body>
     
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-xxl-12 w-50 h-50  form">
             <h1 class="header">QuizApp</h1>
-            <label for="name" class="label">Name:</label>
+            <label for="name" class="label">Name</label>
 <input type="text" name="name" id="name" class="data">
 <br>
 <label for="email" class="label">Email</label>
 <input type="email" name="email" id="email" class="data">
 <br>
-<button type="button" class="btn btn-primary btn-lg" onclick="storeData()">Start</button>
-        </div>
+<button  class="btn btn-primary btn-lg" role="button" onclick="storeData()">Register</button>
+<!--Entire Path--> 
+<a href="file:///C:/Users/Vivek%20Kv/OneDrive/Documents/webdesign/QuizApp/page2/page2.html"><button class="btn btn-primary btn-lg start-quiz" role="button">Start Quiz</button></a>    
+</div>
     </div>
 </div>
 
@@ -38,8 +40,18 @@
 <!--Bootstrap5 js file--> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 
-
-   
+<!--jquery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+$(".start-quiz").hide();
+$(".btn").click(function(){
+    $(this).hide();
+    $(".start-quiz").show();
+})
+    });
 </script>
+   
+
 </body>
 </html>

@@ -3,5 +3,5 @@ function storeData(){
     let email = document.getElementById("email").value;
     const data={name,email};
     console.log(data);
-    alert("Data stored succesfully");
+    alert("succesfully Registered");
 }

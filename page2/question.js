@@ -6,7 +6,7 @@ const Question = [
         option1: "&lt;scripting&gt;",
         option2: "&lt;js&gt;",
         option3: "&lt;script&gt;",
-        answer: "&lt;script&gt;"
+        answer: "<script>"
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const Question = [
         option1: "&lt;script href='abc.js'&gt;",
         option2: "&lt;script name='abc.js'&gt;",
         option3: "&lt;script src='abc.js'&gt;",
-        answer: "&lt;script src='abc.js'&gt;"
+        answer: "<script src='abc.js'>"
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ const Question = [
         question: "How can you add a comment  in a javascript ?",
         option1: "'This is a comment'",
         option2: "//This is a comment",
-        option3: "&lt;!--This is a comment--&gt",
+        option3: "&lt;!--This is a comment--&gt;",
         answer: "//This is a comment"
     },
     {
@@ -81,6 +81,7 @@ const Question = [
         answer: "onclick"
     },
 ]
+
 
 //question1
 let q1 = document.querySelector(".question1");
@@ -153,6 +154,7 @@ function Submition() {
       console.log('Button Deactivated')}, 300000);
   }
  
+
 
 //show questions and their respective options in html through javascript function named showQuestionAnswer()
 
@@ -248,7 +250,7 @@ var myInterval = setInterval(function() {
 
 
 window.onload = function() {
-  var time = 300,// 1 minute=60 seconds,Here 300  denote 5 minutes ie, 300 seconds -> 5 minutes
+  var time = 300;// 1 minute=60 seconds,Here 300  denote 5 minutes ie, 300 seconds -> 5 minutes
     display = document.querySelector('.clock');
   startTimer(time, display, function() { alert('Times Up'); });
 };
@@ -257,3 +259,4 @@ showQuestionAnswer();
 
 //call the function to disable submit button
 Submition();
+

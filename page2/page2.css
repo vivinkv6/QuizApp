@@ -3,6 +3,8 @@
     color: rgb(13, 100, 177);
     margin-top: 30px;
     padding: 50px;
+    box-shadow: 18px 12px 15px black;
+    margin-bottom: 30px;
 }
 
 
@@ -27,6 +29,7 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .label{
@@ -41,3 +44,8 @@ margin-top: 30px;
     margin-right: 20px;
     color: rgb(143, 46, 46);
 }
+
+.btn{
+    margin-right: 20px;
+}
+

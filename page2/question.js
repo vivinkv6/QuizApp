@@ -2,19 +2,19 @@
 const Question = [
     {
         id: 1,
-        question: "Inside which HTML element do we put the javacsript ?",
-        option1: "&lt;scripting&gt;",
-        option2: "&lt;js&gt;",
-        option3: "&lt;script&gt;",
-        answer: "<script>"
+        question: "Who develop javacsript ?",
+        option1: "Mark Zuckerberg",
+        option2: "James Goshling",
+        option3: "Brenden Eich",
+        answer: "Brenden Eich"
     },
     {
         id: 2,
-        question: "What is the correct syntax for referring to an external script called 'abc.js' ?",
-        option1: "&lt;script href='abc.js'&gt;",
-        option2: "&lt;script name='abc.js'&gt;",
-        option3: "&lt;script src='abc.js'&gt;",
-        answer: "<script src='abc.js'>"
+        question: "Odd One Out ?",
+        option1: "let",
+        option2: "const",
+        option3: "variable",
+        answer: "variable"
     },
     {
         id: 3,

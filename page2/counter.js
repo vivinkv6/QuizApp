@@ -1323,8 +1323,51 @@ function question1option1() {
     
 
     function result(){
-        document.getElementById('results').innerHTML=counter;
+       
+    
+        if(counter == 10){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="light-green";
+            document.getElementById('grade').innerHTML="Oustanding Performance";
+            document.getElementById('grade').style.color="light-green";
+        }
+        else if(counter == 9){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('grade').innerHTML="Excellent Performance";
+           
+        }
+        else if(counter == 8){
+
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('grade').innerHTML="Well Done";
+          
+        }
+        else if(counter == 7){
+            document.getElementById('grade').innerHTML="Good";
+        }
+        else if(counter == 6){
+            document.getElementById('grade').innerHTML="Above Average";
+        }
+        else if(counter == 5){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="yellow";
+            document.getElementById('grade').innerHTML="Average";
+            document.getElementById('grade').style.color="yellow";
+
+        }
+        else if(counter == 4){
+            document.getElementById('grade').innerHTML="Below Average";
+        }
+        else{
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="red";
+            document.getElementById('grade').innerHTML="Failed";
+            document.getElementById('grade').style.color="red";
+
+        }
+
     }
+    
     
 
 //Display all the answers

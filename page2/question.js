@@ -2,7 +2,7 @@
 const Question = [
     {
         id: 1,
-        question: "Who develop javacsript ?",
+        question: "Who Develop Javacsript ?",
         option1: "Mark Zuckerberg",
         option2: "James Goshling",
         option3: "Brenden Eich",
@@ -26,7 +26,7 @@ const Question = [
     },
     {
         id: 4,
-        question: "How do you create a function in javascript ?",
+        question: "How do you create a function in Javascript ?",
         option1: "function myfunction()",
         option2: "function:myfunction()",
         option3: "function=myfunction()",
@@ -42,7 +42,7 @@ const Question = [
     },
     {
         id: 6,
-        question: "How to write IF statement in javascript ?",
+        question: "How to write IF statement in Javascript ?",
         option1: "if i=5 then",
         option2: "if(i==5)",
         option3: "if i=5",
@@ -50,7 +50,7 @@ const Question = [
     },
     {
         id: 7,
-        question: "How can you add a comment  in a javascript ?",
+        question: "How can you add a comment  in a Javascript ?",
         option1: "'This is a comment'",
         option2: "//This is a comment",
         option3: "&lt;!--This is a comment--&gt;",

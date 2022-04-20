@@ -37,6 +37,7 @@
                 <label for="q1op3" class="q1op3 label">option3</label><br>
             </div>
         </div>
+        <hr>
 
         <!--question2-->
         <div class="Q2">
@@ -55,7 +56,7 @@
                 <label for="q2op3" class="q2op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question3-->
         <div class="Q3">
             <div class="question-alignment">
@@ -73,7 +74,7 @@
                 <label for="q3op3" class="q3op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question4-->
         <div class="Q4">
             <div class="question-alignment">
@@ -91,7 +92,7 @@
                 <label for="q4op3" class="q4op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question5-->
         <div class="Q5">
             <div class="question-alignment">
@@ -109,7 +110,7 @@
                 <label for="q5op3" class="q5op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question6-->
         <div class="Q6">
             <div class="question-alignment">
@@ -127,7 +128,7 @@
                 <label for="q6op3" class="q6op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question7-->
         <div class="Q7">
             <div class="question-alignment">
@@ -145,7 +146,7 @@
                 <label for="q7op3" class="q7op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question8-->
         <div class="Q8">
             <div class="question-alignment">
@@ -163,7 +164,7 @@
                 <label for="q8op3" class="q8op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question9-->
         <div class="Q9">
             <div class="question-alignment">
@@ -181,7 +182,7 @@
                 <label for="q9op3" class="q9op3 label">option3</label><br>
             </div>
         </div>
-
+<hr>
         <!--question10-->
         <div class="Q10">
             <div class="question-alignment">
@@ -204,81 +205,104 @@
         <div class="button-alignment">
 
 
-            <button class="submit btn btn-primary btn-lg text-center" role="button" onclick="result()">Submit</button>
-
-             <!-- Button trigger modal -->
-            <button class="showanswer btn btn-primary btn-lg text-center" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Show Answer</button>
-        </div>
+            <button class="submit btn btn-primary btn-lg text-center" role="button" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Submit</button>
 
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Answers</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!--Button submit modal-->
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="staticBackdropLabel">Result</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     <h1 id="results" class="text-danger">Result Published Here</h1>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" onclick="result()">View Result</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Button showanswer modal -->
+            <button class="showanswer btn btn-primary btn-lg text-center" role="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Show Answer</button>
         </div>
-        <div class="modal-body">
-          <table class="table table-hover table-striped">
-              <tr>
-                  <th scope="col">SlNo</th>
-                  <th scope="col">Answers</th>
-              </tr>
-              <tr>
-                  <td>1</td>
-                  <td id="q1"></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td id="q2"></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td id="q3"></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td id="q4"></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td id="q5"></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td id="q6"></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td id="q7"></td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td id="q8"></td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td id="q9"></td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td id="q10"></td>
-            </tr>
-          </table>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Answers</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-hover table-striped">
+                            <tr>
+                                <th scope="col">SlNo</th>
+                                <th scope="col">Answers</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td id="q1"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td id="q2"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td id="q3"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td id="q4"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td id="q5"></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td id="q6"></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td id="q7"></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td id="q8"></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td id="q9"></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td id="q10"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          
-        </div>
-      </div>
+
+
+
+
     </div>
-  </div>
-
-
-
-    
-  </div>
 
 
     <!--Bootstrap5 js file-->

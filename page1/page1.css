@@ -1,27 +1,29 @@
 .container{
-   
-    margin-top: 100px; 
-}
-
-.data{
-    margin-bottom: 20px;
-    font-weight: 500;
-}
-.form{
     background-color: rgb(1, 33, 72);
+    margin-top: 100px; 
+    border-radius: 20px;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    position:relative;
-    left: 25%;
     box-shadow: 13px 10px 12px black;
-    
+   
 }
+
+.data{
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
 .header{
     margin-bottom: 20px;
     color: rgb(45, 109, 166);
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 4px 0px 5px black;
+    font-size: 60px;
 }
 .label{
     margin-bottom: 10px;

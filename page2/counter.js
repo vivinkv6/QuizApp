@@ -1327,9 +1327,9 @@ function question1option1() {
     
         if(counter == 10){
             document.getElementById('results').innerHTML=counter;
-            document.getElementById('results').style.color="light-green";
+            document.getElementById('results').style.color="lime";
             document.getElementById('grade').innerHTML="Oustanding Performance";
-            document.getElementById('grade').style.color="light-green";
+            document.getElementById('grade').style.color="lime";
         }
         else if(counter == 9){
             document.getElementById('results').innerHTML=counter;

@@ -1333,30 +1333,43 @@ function question1option1() {
         }
         else if(counter == 9){
             document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="cyan";
             document.getElementById('grade').innerHTML="Excellent Performance";
+            document.getElementById('grade').style.color="cyan";
            
         }
         else if(counter == 8){
 
             document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="cyan";
             document.getElementById('grade').innerHTML="Well Done";
+            document.getElementById('grade').style.color="cyan";
           
         }
         else if(counter == 7){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="cyan";
             document.getElementById('grade').innerHTML="Good";
+            document.getElementById('grade').style.color="cyan";
         }
         else if(counter == 6){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="cyan";
             document.getElementById('grade').innerHTML="Above Average";
+            document.getElementById('grade').style.color="cyan";
         }
         else if(counter == 5){
             document.getElementById('results').innerHTML=counter;
-            document.getElementById('results').style.color="yellow";
+            document.getElementById('results').style.color="darkgoldenrod";
             document.getElementById('grade').innerHTML="Average";
-            document.getElementById('grade').style.color="yellow";
+            document.getElementById('grade').style.color="darkgoldenrod";
 
         }
         else if(counter == 4){
+            document.getElementById('results').innerHTML=counter;
+            document.getElementById('results').style.color="cyan";
             document.getElementById('grade').innerHTML="Below Average";
+            document.getElementById('grade').style.color="cyan";
         }
         else{
             document.getElementById('results').innerHTML=counter;

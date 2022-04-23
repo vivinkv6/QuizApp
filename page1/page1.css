@@ -1,6 +1,7 @@
 .container{
     background-color: rgb(1, 33, 72);
     margin-top: 100px; 
+    margin-bottom: 40px;
     border-radius: 20px;
     display: flex;
     flex-direction:column;
@@ -39,4 +40,20 @@
 }
 .start-quiz{
     margin-top: 5px;
+}
+.msg-success{
+
+position: fixed;
+left: 220px;
+}
+.msg-username{
+text-align: center;
+}
+.msg-useremail{
+
+right: 190px;
+}
+.msg-alert{
+    display: flex;
+    justify-content: center;
 }

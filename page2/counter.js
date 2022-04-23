@@ -16,9 +16,7 @@ function question1option1() {
                 console.log(counter);
           
         }
-       else{
-          console.log(counter);
-           }
+      
           
        }
      
@@ -37,10 +35,6 @@ function question1option1() {
                 console.log(counter);
            }
            
-           else{
-               console.log(counter);
-           }
-           
         }
        
     }   
@@ -55,9 +49,6 @@ function question1option1() {
                counter+=1;
                console.log(counter);
             } 
-               }
-               else{
-                console.log(counter);
                }
              
             }
@@ -78,11 +69,6 @@ function question1option1() {
                       
                     }
                     }
-                        else{
-                           console.log(counter);
-    
-                        }
-             
                     
                 }
             
@@ -99,10 +85,6 @@ function question1option1() {
                       
                     }
                     }
-                        else{
-                            console.log(counter);
-                        }
-
                     
                 }
             
@@ -119,11 +101,7 @@ function question1option1() {
                       
                     }
                     }
-                        else{
-                            console.log(counter);
-    
-                        }
-                      
+
                 }
             
 
@@ -139,11 +117,6 @@ function question1option1() {
                       
                         }
                 }
-                        else{
-                            console.log(counter);
-    
-                        }
-            
                     
                 }
             
@@ -159,12 +132,7 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                           console.log(counter);
-    
-                        }
-                       
-                    
+                            
                 }
             
 
@@ -180,10 +148,6 @@ function question1option1() {
                         
                     }
                     }
-                        else{
-                           console.log(counter);
-    
-                        }
                       
                 }
             
@@ -199,11 +163,6 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                           console.log(counter);
-    
-                        }
-              
                     
                 }
             
@@ -219,11 +178,6 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                            console.log(counter);
-    
-                        }
-                      
                     
                 }
             
@@ -239,9 +193,6 @@ function question1option1() {
                       
                     }
                     }
-                        else{
-                            console.log(counter);
-                        }
                        
                 }
             
@@ -257,11 +208,6 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                            console.log(counter);
-    
-                        }
-               
                     
                 }
             
@@ -277,11 +223,6 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                            console.log(counter);
-    
-                        }
-                       
                     
                 }
             
@@ -297,10 +238,6 @@ function question1option1() {
                        
                     }
                     }
-                        else{
-                            console.log(counter);
-    
-                        }
                      
                 }
             
@@ -318,10 +255,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
               
         }
     
@@ -337,10 +270,7 @@ function question1option1() {
                 
             }
             }
-                else{
-                    console.log(counter);
 
-                }
                 }
                
         
@@ -357,10 +287,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
 
                 }
                 
@@ -378,10 +304,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
                
         }
     
@@ -398,9 +320,7 @@ function question1option1() {
               
         }
     }
-    else{
-        console.log(counter);
-    }
+
 }
     
     
@@ -416,9 +336,7 @@ function question1option1() {
               
         }
     }
-    else{
-        console.log(counter);
-    }
+   
 }
     
 
@@ -433,10 +351,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
                 
         }
     
@@ -453,10 +367,6 @@ function question1option1() {
             }
         }
             
-                else{
-                    console.log(counter);
-
-                }
                
             }
     
@@ -474,11 +384,6 @@ function question1option1() {
             }
         }
             
-                else{
-                    console.log(counter);
-
-                }
-              
         }
     
 
@@ -493,10 +398,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
                
         }
     
@@ -512,10 +413,6 @@ function question1option1() {
                 
             }
             }
-                else{
-                    console.log(counter);
-
-                }
               
         }
     
@@ -532,11 +429,7 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
-               
+    
         }
     
 
@@ -551,10 +444,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
               
         }
     
@@ -570,11 +459,7 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
-               
+                
         }
     
 
@@ -589,10 +474,6 @@ function question1option1() {
                
             }
             }
-                else{
-                    console.log(counter);
-
-                }
                 
         }
     

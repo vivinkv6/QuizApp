@@ -11,64 +11,19 @@ function question1option1() {
         document.querySelector(".q1option2").disabled = true;  
         document.querySelector(".q1option3").disabled = true;  
         if(document.querySelector(".q1option1").value == Question[0].answer){
-            if(counter == 9){
+            
                 counter+=1;
                 console.log(counter);
-            }
-           else  if(counter == 8){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 7){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 6){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 5){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 4){
-                counter+=1;
-                console.log(counter);
-            }
-           else if(counter == 3){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 2){
-                counter+=1;
-                console.log(counter);
-            }
-           else if(counter == 1){
-                counter=counter+1;
-                console.log(counter);
-            }
-            else if(counter == 0){
-                counter=counter+1;
-                console.log(counter);
-               
-            }
-            else{
-               
-                console.log(counter)
-            }
+          
         }
-       }
        else{
           console.log(counter);
            }
           
        }
-      
+     
        
-      
-    
-    
-    
+    }    
     function question1option2() {
         
     
@@ -77,60 +32,18 @@ function question1option1() {
             document.querySelector(".q1option3").disabled = true;  
            if(document.querySelector(".q1option2").value == Question[0].answer){
            
-            if(counter == 9){
+            
                 counter+=1;
                 console.log(counter);
-            }
-           else  if(counter == 8){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 7){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 6){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 5){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 4){
-                counter+=1;
-                console.log(counter);
-            }
-           else if(counter == 3){
-                counter+=1;
-                console.log(counter);
-            }
-            else if(counter == 2){
-                counter+=1;
-                console.log(counter);
-            }
-           else if(counter == 1){
-                counter=counter+1;
-                console.log(counter);
-            }
-           else if(counter == 0){
-                counter=counter+1;
-                console.log(counter);
-            }
-            else{
-               
-                console.log(counter)
-            }
-        }
-           
            }
+           
            else{
                console.log(counter);
            }
            
         }
        
-        
+    }   
     
         function question1option3() {
         
@@ -139,52 +52,9 @@ function question1option1() {
                 document.querySelector(".q1option1").disabled = true;  
                 document.querySelector(".q1option2").disabled = true;    
                if(document.querySelector(".q1option3").value == Question[0].answer){
-                if(counter == 9){
-                    counter+=1;
-                    console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-               else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-               else if(counter == 1){
-                    counter=counter+1;
-                    console.log(counter);
-                }
-              else if(counter == 0){
-                    counter=counter+1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
-            }
-             
+               counter+=1;
+               console.log(counter);
+            } 
                }
                else{
                 console.log(counter);
@@ -201,50 +71,11 @@ function question1option1() {
                     document.querySelector(".q2option2").disabled = true;  
                     document.querySelector(".q2option3").disabled = true;  
                     if(document.querySelector(".q2option1").value == Question[1].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 1){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else{
-                           
-                            console.log(counter)
-                        }
+                       
+                      
                     }
                     }
                         else{
@@ -261,50 +92,11 @@ function question1option1() {
                     document.querySelector(".q2option1").disabled = true;  
                     document.querySelector(".q2option3").disabled = true;  
                     if(document.querySelector(".q2option2").value == Question[1].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 1){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                       
+                      
                     }
                     }
                         else{
@@ -320,50 +112,11 @@ function question1option1() {
                     document.querySelector(".q2option1").disabled = true;  
                     document.querySelector(".q2option2").disabled = true;    
                     if(document.querySelector(".q2option3").value == Question[1].answer){
-                        if(counter == 9){
+                      
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                      else if(counter == 1){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter=counter+1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                      
+                      
                     }
                     }
                         else{
@@ -380,52 +133,12 @@ function question1option1() {
                     document.querySelector(".q3option2").disabled = true;  
                     document.querySelector(".q3option3").disabled = true;  
                     if(document.querySelector(".q3option1").value == Question[2].answer){
-                        if(counter == 9){
+                       
                             counter+=1;
                             console.log(counter);
+                      
                         }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                          
-                            console.log(counter)
-                        }
-                    }
-                    }
+                }
                         else{
                             console.log(counter);
     
@@ -440,50 +153,10 @@ function question1option1() {
                     document.querySelector(".q3option1").disabled = true;    
                     document.querySelector(".q3option3").disabled = true;  
                     if(document.querySelector(".q3option2").value == Question[2].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                           
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -500,50 +173,11 @@ function question1option1() {
                     document.querySelector(".q3option1").disabled = true;  
                     document.querySelector(".q3option2").disabled = true;    
                     if(document.querySelector(".q3option3").value == Question[2].answer){
-                        if(counter == 9){
+                       
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                      
+                        
                     }
                     }
                         else{
@@ -559,50 +193,10 @@ function question1option1() {
                     document.querySelector(".q4option2").disabled = true;  
                     document.querySelector(".q4option3").disabled = true;  
                     if(document.querySelector(".q4option1").value == Question[3].answer){
-                        if(counter == 9){
+                       
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -619,50 +213,10 @@ function question1option1() {
                     document.querySelector(".q4option1").disabled = true;    
                     document.querySelector(".q4option3").disabled = true;  
                     if(document.querySelector(".q4option2").value == Question[3].answer){
-                        if(counter == 9){
+                       
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -679,50 +233,10 @@ function question1option1() {
                     document.querySelector(".q4option1").disabled = true;  
                     document.querySelector(".q4option2").disabled = true;  
                     if(document.querySelector(".q4option3").value == Question[3].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                      
                     }
                     }
                         else{
@@ -737,50 +251,10 @@ function question1option1() {
                     document.querySelector(".q5option2").disabled = true;  
                     document.querySelector(".q5option3").disabled = true;  
                     if(document.querySelector(".q5option1").value == Question[4].answer){
-                        if(counter == 9){
+                       
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                            
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -797,50 +271,10 @@ function question1option1() {
                     document.querySelector(".q5option1").disabled = true;  
                     document.querySelector(".q5option3").disabled = true;  
                     if(document.querySelector(".q5option2").value == Question[4].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                           
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -857,50 +291,10 @@ function question1option1() {
                     document.querySelector(".q5option1").disabled = true;  
                     document.querySelector(".q5option2").disabled = true;  
                     if(document.querySelector(".q5option3").value == Question[4].answer){
-                        if(counter == 9){
+                        
                             counter+=1;
                             console.log(counter);
-                        }
-                       else  if(counter == 8){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 7){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 6){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 5){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                       else  if(counter == 4){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 3){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 2){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 1){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else if(counter == 0){
-                            counter+=1;
-                            console.log(counter);
-                        }
-                        else{
-                           
-                            console.log(counter)
-                        }
+                       
                     }
                     }
                         else{
@@ -918,50 +312,10 @@ function question1option1() {
             document.querySelector(".q6option2").disabled = true;  
             document.querySelector(".q6option3").disabled = true;  
             if(document.querySelector(".q6option1").value == Question[5].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                 
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -977,50 +331,10 @@ function question1option1() {
             document.querySelector(".q6option1").disabled = true;    
             document.querySelector(".q6option3").disabled = true;  
             if(document.querySelector(".q6option2").value == Question[5].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-              else  if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                 
-                    console.log(counter)
-                }
+                
             }
             }
                 else{
@@ -1037,50 +351,10 @@ function question1option1() {
             document.querySelector(".q6option1").disabled = true;  
             document.querySelector(".q6option2").disabled = true;   
             if(document.querySelector(".q6option3").value == Question[5].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-               else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                 
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1098,50 +372,10 @@ function question1option1() {
             document.querySelector(".q7option2").disabled = true;  
             document.querySelector(".q7option3").disabled = true;  
             if(document.querySelector(".q7option1").value == Question[6].answer){
-                if(counter == 9){
+              
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1157,52 +391,15 @@ function question1option1() {
             document.querySelector(".q7option1").disabled = true;   
             document.querySelector(".q7option3").disabled = true;  
             if(document.querySelector(".q7option2").value == Question[6].answer){
-                if(counter == 9){
+              
                     counter+=1;
                     console.log(counter);
-                }
-               else if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-              else  if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+               
               
         }
+    }
+    else{
+        console.log(counter);
     }
 }
     
@@ -1212,52 +409,15 @@ function question1option1() {
             document.querySelector(".q7option1").disabled = true;  
             document.querySelector(".q7option2").disabled = true;   
             if(document.querySelector(".q7option3").value == Question[6].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-              else  if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+              
               
         }
+    }
+    else{
+        console.log(counter);
     }
 }
     
@@ -1267,50 +427,10 @@ function question1option1() {
             document.querySelector(".q8option2").disabled = true;  
             document.querySelector(".q8option3").disabled = true;  
             if(document.querySelector(".q8option1").value == Question[7].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1326,51 +446,10 @@ function question1option1() {
             document.querySelector(".q8option1").disabled = true;   
             document.querySelector(".q8option3").disabled = true;  
             if(document.querySelector(".q8option2").value == Question[7].answer){
-                if(counter == 9){
+              
                     counter+=1;
                     console.log(counter);
-                }
-
-              else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+               
             }
         }
             
@@ -1388,51 +467,10 @@ function question1option1() {
             document.querySelector(".q8option1").disabled = true;  
             document.querySelector(".q8option2").disabled = true;  
             if(document.querySelector(".q8option3").value == Question[7].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-
-              else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                   
-                    console.log(counter)
-                }
+               
             }
         }
             
@@ -1449,51 +487,10 @@ function question1option1() {
             document.querySelector(".q9option2").disabled = true;  
             document.querySelector(".q9option3").disabled = true;  
             if(document.querySelector(".q9option1").value == Question[8].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-
-              else if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1509,51 +506,10 @@ function question1option1() {
             document.querySelector(".q9option1").disabled = true;  
             document.querySelector(".q9option3").disabled = true;  
             if(document.querySelector(".q9option2").value == Question[8].answer){
-                if(counter == 9){
+                
                     counter+=1;
                     console.log(counter);
-                }
-
-               else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+                
             }
             }
                 else{
@@ -1569,51 +525,10 @@ function question1option1() {
             document.querySelector(".q9option1").disabled = true;  
             document.querySelector(".q9option2").disabled = true;  
             if(document.querySelector(".q9option3").value == Question[8].answer){
-                if(counter == 9){
+              
                     counter+=1;
                     console.log(counter);
-                }
-
-              else  if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+               
                
             }
             }
@@ -1630,51 +545,10 @@ function question1option1() {
             document.querySelector(".q10option2").disabled = true;  
             document.querySelector(".q10option3").disabled = true; 
             if(document.querySelector(".q10option1").value == Question[9].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-
-                else if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1690,51 +564,10 @@ function question1option1() {
             document.querySelector(".q10option1").disabled = true;   
             document.querySelector(".q10option3").disabled = true; 
             if(document.querySelector(".q10option2").value == Question[9].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-
-                else if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+               
             }
             }
                 else{
@@ -1750,51 +583,10 @@ function question1option1() {
             document.querySelector(".q10option1").disabled = true;  
             document.querySelector(".q10option2").disabled = true;  
             if(document.querySelector(".q10option3").value == Question[9].answer){
-                if(counter == 9){
+               
                     counter+=1;
                     console.log(counter);
-                }
-
-                else if(counter == 8){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 7){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 6){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 5){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 4){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 3){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 2){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 1){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else if(counter == 0){
-                    counter+=1;
-                    console.log(counter);
-                }
-                else{
-                  
-                    console.log(counter)
-                }
+               
             }
             }
                 else{

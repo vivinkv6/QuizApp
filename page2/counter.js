@@ -13,7 +13,7 @@ function question1option1() {
         if(document.querySelector(".q1option1").value == Question[0].answer){
             
                 counter+=1;
-                console.log(counter);
+              
           
         }
       
@@ -32,7 +32,7 @@ function question1option1() {
            
             
                 counter+=1;
-                console.log(counter);
+               
            }
            
         }
@@ -47,7 +47,7 @@ function question1option1() {
                 document.querySelector(".q1option2").disabled = true;    
                if(document.querySelector(".q1option3").value == Question[0].answer){
                counter+=1;
-               console.log(counter);
+             
             } 
                }
              
@@ -64,7 +64,7 @@ function question1option1() {
                     if(document.querySelector(".q2option1").value == Question[1].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                          
                        
                       
                     }
@@ -80,7 +80,7 @@ function question1option1() {
                     if(document.querySelector(".q2option2").value == Question[1].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                           
                        
                       
                     }
@@ -96,7 +96,7 @@ function question1option1() {
                     if(document.querySelector(".q2option3").value == Question[1].answer){
                       
                             counter+=1;
-                            console.log(counter);
+                           
                       
                       
                     }
@@ -113,7 +113,7 @@ function question1option1() {
                     if(document.querySelector(".q3option1").value == Question[2].answer){
                        
                             counter+=1;
-                            console.log(counter);
+                           
                       
                         }
                 }
@@ -128,7 +128,7 @@ function question1option1() {
                     if(document.querySelector(".q3option2").value == Question[2].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                           
                        
                     }
                     }
@@ -143,7 +143,7 @@ function question1option1() {
                     if(document.querySelector(".q3option3").value == Question[2].answer){
                        
                             counter+=1;
-                            console.log(counter);
+                          
                       
                         
                     }
@@ -159,7 +159,7 @@ function question1option1() {
                     if(document.querySelector(".q4option1").value == Question[3].answer){
                        
                             counter+=1;
-                            console.log(counter);
+                         
                        
                     }
                     }
@@ -174,7 +174,7 @@ function question1option1() {
                     if(document.querySelector(".q4option2").value == Question[3].answer){
                        
                             counter+=1;
-                            console.log(counter);
+                           
                        
                     }
                     }
@@ -189,7 +189,7 @@ function question1option1() {
                     if(document.querySelector(".q4option3").value == Question[3].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                          
                       
                     }
                     }
@@ -204,7 +204,7 @@ function question1option1() {
                     if(document.querySelector(".q5option1").value == Question[4].answer){
                        
                             counter+=1;
-                            console.log(counter);
+                           
                        
                     }
                     }
@@ -219,7 +219,7 @@ function question1option1() {
                     if(document.querySelector(".q5option2").value == Question[4].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                          
                        
                     }
                     }
@@ -234,7 +234,7 @@ function question1option1() {
                     if(document.querySelector(".q5option3").value == Question[4].answer){
                         
                             counter+=1;
-                            console.log(counter);
+                           
                        
                     }
                     }
@@ -251,7 +251,7 @@ function question1option1() {
             if(document.querySelector(".q6option1").value == Question[5].answer){
                
                     counter+=1;
-                    console.log(counter);
+                   
                
             }
             }
@@ -266,7 +266,7 @@ function question1option1() {
             if(document.querySelector(".q6option2").value == Question[5].answer){
                
                     counter+=1;
-                    console.log(counter);
+                 
                 
             }
             }
@@ -283,7 +283,7 @@ function question1option1() {
             if(document.querySelector(".q6option3").value == Question[5].answer){
                
                     counter+=1;
-                    console.log(counter);
+                 
                
             }
             }
@@ -300,7 +300,7 @@ function question1option1() {
             if(document.querySelector(".q7option1").value == Question[6].answer){
               
                     counter+=1;
-                    console.log(counter);
+                  
                
             }
             }
@@ -315,7 +315,7 @@ function question1option1() {
             if(document.querySelector(".q7option2").value == Question[6].answer){
               
                     counter+=1;
-                    console.log(counter);
+                 
                
               
         }
@@ -331,7 +331,7 @@ function question1option1() {
             if(document.querySelector(".q7option3").value == Question[6].answer){
                
                     counter+=1;
-                    console.log(counter);
+                   
               
               
         }
@@ -347,7 +347,7 @@ function question1option1() {
             if(document.querySelector(".q8option1").value == Question[7].answer){
                
                     counter+=1;
-                    console.log(counter);
+                  
                
             }
             }
@@ -362,7 +362,7 @@ function question1option1() {
             if(document.querySelector(".q8option2").value == Question[7].answer){
               
                     counter+=1;
-                    console.log(counter);
+                 
                
             }
         }
@@ -379,7 +379,7 @@ function question1option1() {
             if(document.querySelector(".q8option3").value == Question[7].answer){
                
                     counter+=1;
-                    console.log(counter);
+                 
                
             }
         }
@@ -394,7 +394,7 @@ function question1option1() {
             if(document.querySelector(".q9option1").value == Question[8].answer){
                
                     counter+=1;
-                    console.log(counter);
+                  
                
             }
             }
@@ -409,7 +409,7 @@ function question1option1() {
             if(document.querySelector(".q9option2").value == Question[8].answer){
                 
                     counter+=1;
-                    console.log(counter);
+                  
                 
             }
             }
@@ -424,7 +424,7 @@ function question1option1() {
             if(document.querySelector(".q9option3").value == Question[8].answer){
               
                     counter+=1;
-                    console.log(counter);
+                  
                
                
             }
@@ -440,7 +440,7 @@ function question1option1() {
             if(document.querySelector(".q10option1").value == Question[9].answer){
                
                     counter+=1;
-                    console.log(counter);
+                   
                
             }
             }
@@ -455,7 +455,7 @@ function question1option1() {
             if(document.querySelector(".q10option2").value == Question[9].answer){
                
                     counter+=1;
-                    console.log(counter);
+                   
                
             }
             }
@@ -470,7 +470,7 @@ function question1option1() {
             if(document.querySelector(".q10option3").value == Question[9].answer){
                
                     counter+=1;
-                    console.log(counter);
+                   
                
             }
             }

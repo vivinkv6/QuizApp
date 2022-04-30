@@ -7,9 +7,8 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 80px;
     box-shadow: 13px 10px 12px black;
-   
 }
 
 .data{
@@ -19,17 +18,18 @@
 }
 
 .header{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: rgb(45, 109, 166);
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 4px 0px 5px black;
     font-size: 60px;
+    text-align: center;
 }
 .label{
     margin-bottom: 10px;
     font-weight: 700;
-    font-size:30px;
+    font-size:35px;
     color: rgb(45, 109, 166);
 }
 #name,#email{
@@ -37,23 +37,4 @@
     width: 300px;
     font-size: 20px;
     border-radius: 10px;
-}
-.start-quiz{
-    margin-top: 5px;
-}
-.msg-success{
-
-position: fixed;
-left: 220px;
-}
-.msg-username{
-text-align: center;
-}
-.msg-useremail{
-
-right: 190px;
-}
-.msg-alert{
-    display: flex;
-    justify-content: center;
 }

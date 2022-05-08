@@ -291,11 +291,11 @@
     .container{
         background-color: rgb(3, 3, 61);
         color: rgb(13, 100, 177);
-        margin-top: 30px;
+        margin-top: 0%;
         padding: 50px;
         box-shadow: 18px 12px 15px black;
-        margin-bottom: 30px;
-        border-radius: 1px;
+        margin-bottom: 0%;
+        border-radius: none;
     }
     
     
@@ -403,10 +403,10 @@
     .container{
         background-color: rgb(3, 3, 61);
         color: rgb(13, 100, 177);
-        margin-top: 30px;
+        margin-top: 0%;
         padding: 50px;
         box-shadow: none;
-        margin-bottom: 30px;
+        margin-bottom: 0%;
        
     }
     

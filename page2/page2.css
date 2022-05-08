@@ -1,52 +1,340 @@
-.container{
-    background-color: rgb(3, 3, 61);
-    color: rgb(13, 100, 177);
+
+
+@media only screen and (min-width: 1200px) {
+   
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 50px;
+        box-shadow: 18px 12px 15px black;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+    
+    
+    .options{
+    margin-left: 50px;
     margin-top: 30px;
-    padding: 50px;
-    box-shadow: 18px 12px 15px black;
-    margin-bottom: 30px;
-    border-radius: 20px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 90px;
+       
+    }
+    .option-alignment{
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 25px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
+    
+
 }
 
 
-.options{
-margin-left: 50px;
-margin-top: 30px;
-}
-.option1,.option2,.option3{
-    margin-bottom: 10px;
-}
 
-.question-alignment{
-    margin-left: 90px;
+@media only screen and (min-width: 992px) {
+
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 40px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    
+    .options{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 90px;
+       
+    }
+    .option-alignment{
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 25px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
    
 }
-.option-alignment{
-    margin-left: 130px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.button-alignment{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+
+@media only screen and (min-width: 768px) {
+
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 40px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
     
+    
+    .options{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 90px;
+       
+    }
+    .option-alignment{
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 25px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
+   
 }
 
-.label{
-    font-size: 25px;
+
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 50px;
+        box-shadow: 18px 12px 15px black;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+    
+    
+    .options{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 90px;
+       
+    }
+    .option-alignment{
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 25px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
+   
 }
 
-.questions-list{
-    margin-top: 40px;
+@media only screen and (max-width: 500px) {
+
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 50px;
+        box-shadow: 18px 12px 15px black;
+        margin-bottom: 30px;
+       
+    }
+    
+    
+    .options{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 10px;
+       
+    }
+    .option-alignment{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 20px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
 }
 
-.clock{
-    margin-right: 20px;
-    color: rgb(143, 46, 46);
-}
+@media only screen and (max-width: 400px) {
 
-.btn{
-    margin-right: 20px;
+    .container{
+        background-color: rgb(3, 3, 61);
+        color: rgb(13, 100, 177);
+        margin-top: 30px;
+        padding: 50px;
+        box-shadow: 18px 12px 15px black;
+        margin-bottom: 30px;
+       
+    }
+    
+    
+    .options{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    .option1,.option2,.option3{
+        margin-bottom: 10px;
+    }
+    
+    .question-alignment{
+        margin-left: 10px;
+       
+    }
+    .option-alignment{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .button-alignment{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    .label{
+        font-size: 15px;
+    }
+    
+    .questions-list{
+        margin-top: 40px;
+    }
+    
+    .clock{
+        margin-right: 20px;
+        color: rgb(143, 46, 46);
+    }
+    
+    .btn{
+        margin-right: 20px;
+    }
+   
 }
 

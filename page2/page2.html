@@ -224,7 +224,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" onclick="result()">View Result</button>
+                      <button type="button" class="submit btn btn-primary" onclick="result()">View Result</button>
                     </div>
                   </div>
                 </div>
@@ -326,6 +326,10 @@
             $(".submit").click(function () {
                 $(".showanswer").show();
             });
+            $('.submit').click(function(){
+                $(this).hide();
+                $('.timer').hide();
+            })
 
         });
     </script>

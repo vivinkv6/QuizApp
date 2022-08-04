@@ -5,8 +5,7 @@
 HTML5,
 CSS3,
 JavaScript,
-JQUERY,
-BOOTSTRAP5
+JQUERY
 
 ## Website Link
 

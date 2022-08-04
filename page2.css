@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1200px) {
    
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 30px;
         padding: 50px;
@@ -62,7 +62,7 @@
 @media only screen and (min-width: 992px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color:rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 30px;
         padding: 40px;
@@ -118,7 +118,7 @@
 @media only screen and (min-width: 768px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 30px;
         padding: 40px;
@@ -176,7 +176,7 @@
 @media only screen and (min-width: 600px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 30px;
         padding: 50px;
@@ -232,7 +232,7 @@
 @media only screen and (max-width: 600px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 0%;
         padding: 50px;
@@ -289,7 +289,7 @@
 @media only screen and (max-width: 500px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 0%;
         padding: 50px;
@@ -345,7 +345,7 @@
 @media only screen and (max-width: 400px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 0%;
         padding: 50px;
@@ -401,7 +401,7 @@
 @media only screen and (max-width: 300px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 0%;
         padding: 50px;
@@ -457,7 +457,7 @@
 @media only screen and (max-width: 200px) {
 
     .container{
-        background-color: rgb(3, 3, 61);
+        background-color: rgb(1, 33, 72);
         color: rgb(13, 100, 177);
         margin-top: 30px;
         padding: 50px;

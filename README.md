@@ -2,11 +2,11 @@
 
 ### Technology
 
-HTML<br>
-CSS<br>
-JavaScript<br>
-JQUERY<br>
-BOOTSTRAP 5
+HTML5,
+CSS3,
+JavaScript,
+JQUERY,
+BOOTSTRAP5
 
 ## Website Link
 
